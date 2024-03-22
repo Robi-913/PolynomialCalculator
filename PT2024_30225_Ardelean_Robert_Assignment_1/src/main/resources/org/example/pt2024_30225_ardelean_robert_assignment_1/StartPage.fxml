@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.pt2024_30225_ardelean_robert_assignment_1.TitleController">
+
+
+    <Pane prefHeight="480.0" prefWidth="640.0">
+        <ImageView fx:id="imageNewPage" fitHeight="320.0" fitWidth="320.0" layoutX="160.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/png-clipart-geogebra-mathematics-computer-software-svg-purple-graph-of-a-function-thumbnail-removebg-preview.png" />
+            </image>
+        </ImageView>
+      <VBox fx:id="vBox" alignment="CENTER" layoutX="160.0" layoutY="80.0" onMouseClicked="#handleNewTab" onMouseEntered="#handleHover" onMouseExited="#handleExit" prefHeight="320.0" prefWidth="320.0" stylesheets="@FxCalculator.css">
+         <children>
+         
+                 <Label id="Title" fx:id="hoverLabel" alignment="CENTER" prefHeight="79.0" prefWidth="278.0" text="Calculator" textAlignment="CENTER" textOverrun="CLIP">
+                  <font>
+                      <Font name="Arial" size="16.0" />
+                  </font>
+              </Label>
+            <Label id="Title" alignment="CENTER" prefHeight="79.0" prefWidth="278.0" text="Polinoame" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+    </Pane>
+</StackPane>

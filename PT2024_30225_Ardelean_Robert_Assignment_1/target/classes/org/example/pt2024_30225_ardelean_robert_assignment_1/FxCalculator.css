@@ -1,0 +1,58 @@
+.button
+{
+    -fx-background-color:  #3224b2;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button:hover
+{
+    -fx-background-color: #293994;
+    -fx-background-radius: 30 30 30 30;
+}
+
+.button:pressed
+{
+    -fx-background-color: #20286c;
+    -fx-background-radius: 30 30 30 30;
+}
+
+
+#Title {
+    -fx-font-family: 'Comic Sans MS', serif;
+    -fx-font-size: 56px;
+    -fx-letter-spacing: 2px;
+    -fx-text-fill: #3224b2;
+}
+
+#Title:hover {
+    -fx-text-fill: #293994;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+#Title > Text {
+    -fx-line-spacing: 12px;
+}
+
+
+#Result {
+    -fx-font-family: 'Comic Sans MS', serif;
+    -fx-letter-spacing: 2px;
+    -fx-text-fill: #3224b2;
+}
+
+#Result > Text {
+    -fx-line-spacing: 12px;
+}
+
+#Border {
+    -fx-background-radius: 15;
+    -fx-border-color: #3224b2;
+    -fx-border-radius: 15;
+    -fx-border-width: 2px;
+}
+
+#Border:hover {
+    -fx-border-color: #293994;
+}
+
